@@ -1,0 +1,994 @@
+/* 
+	Author: Shakila Fitriannisa Hazrumy
+	Purpose: the purpose of this css file is to structure and design the presentation 
+	of the HTML document that will be submitted for the Project1 assignment for Web Technology
+	Semester 1 2025 by group Mak_Shaquille
+*/
+/* applies to the whole page */
+.page-general body, html{
+	padding: 0;
+	margin: 0;
+}
+
+#background{
+    background-image: url('./images/flower.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+
+*{
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+}
+/* Header and navigation css */
+
+.page-general header{
+	text-align: center;
+}
+.page-general .name{
+	padding: 12px;
+}
+.page-general #header{
+	text-align: right;
+	padding-right: 0.5%;
+	list-style-type: none;
+	padding-top: 15px;
+	padding-bottom: 8px;
+	line-height: 1.8;
+	color: #EBC4BB;
+	background-color: #46767E;
+  }
+.page-general #logo{
+	width: 125px;
+	float: left;
+}
+@media only screen and (max-width: 705px) {
+	.page-general #logo{
+		height: 229px;
+	}
+}
+@media only screen and (max-width: 426px) {
+	.page-general #logo{
+		height: 331px;
+	}
+}
+
+.page-general a{
+	color: inherit;
+	text-decoration: none;
+}
+.page-general a:hover{
+	color: #46767E;
+	background-color: #EBC4BB;
+}
+.page-general body, html, h1, h2{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/* Body CSS properties*/
+.page-general aside{
+	width: 25%;
+    float: right;
+    padding: 20px;
+    border: solid #46767E;
+    box-sizing: content-box;
+    text-align: center;
+}
+.page-general h1, h2{
+	color: #46767E;
+}
+.page-general section{
+	color: #234247;
+}
+.page-general #page-title{
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+	line-height: 80px;
+    background-color: #ffffff;
+}
+.page-general #ack-of-land{
+	text-align: center;
+	width: 50%;
+	padding: 20px;
+	margin: auto;
+	border: solid #46767E;
+	box-sizing: content-box;
+	padding-bottom: 20px;
+	background-color: #f2f2f2
+}
+.page-general .job-title{
+	background-color: #EBC4BB;
+	padding: 5px;
+	margin: 0;
+}
+.page-general .job-details{
+	padding: 20px;
+	line-height: 1.5;
+	text-align: justify !important;
+}
+.page-general h3{
+	padding-left: 20px;
+}
+.page-general .key-details{
+	line-height: 25px;
+	padding-left: 20px;
+	padding-top: 0px;
+}
+.page-general footer{
+	background-color: #46767E;
+	color: #EBC4BB;
+	text-align: center;
+	padding: 5px;
+}
+
+.enhancement footer{
+    background-color: #46767E;
+	color: #EBC4BB;
+	text-align: center;
+	padding: 5px;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:60px;  
+}
+
+.page-general #logo2{
+	margin: auto;
+	width: 500px;
+}
+.page-general .our-history{
+	width: 45%;
+	float: left;
+	padding: 20px;
+	border: solid #46767E;
+	box-sizing: content-box;
+	text-align: center;
+	background-color: #f2f2f2;
+}
+.page-general .display{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-right: 20px;
+}
+
+
+/* === Table === */
+.page-general table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+.page-general th, td {
+    padding: 0.8rem;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+.page-general th {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.page-general tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+/* About us Page */
+.page-general #about-us{
+	text-align: center;
+	line-height: 25px;
+}
+.page-general #group-pic{
+	width: 700px;
+}
+.page-general ul{
+	list-style-type: none;
+}
+.page-general dt{
+	font-weight: bold;
+}
+
+
+.page-general th{
+	background-color: #EBC4BB;
+	color: #46767E;
+	font-weight: bold;
+}
+.page-general .group-info::first-line{
+	background-color: #EBC4BB;
+	color: #46767E;
+}
+/* Grid Boxes for Application */
+.page-general fieldset{
+	border: 0
+}
+.page-general .container {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 1em;
+	padding-right: 205px;
+	padding-left: 205px;
+	padding-bottom: 50px;
+  }
+  
+  
+  .page-general .span-columns {
+	grid-column: span 2;
+  }
+  
+  .page-general .job-number {
+	text-align: center;
+  }
+  
+  .page-general .buttons {
+	display: flex;
+	justify-content: center;
+  }
+  .page-general .action{
+	background-color: #EBC4BB;
+	color: #46767E;
+  }
+  .page-general .action:hover{
+	background-color: #46767E;
+	color: #EBC4BB;
+  }
+  .page-general legend{
+	font-weight: bold;
+  }
+  .page-general fieldset{
+	text-align: center;
+  }
+
+
+
+.page-general ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* background-color: #333; */
+}
+
+.page-general li {
+  float: none;
+}
+
+.page-general li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 37px 15px;
+  text-decoration: none;
+}
+
+
+
+/* Form Container */
+.page-general .apply-form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    background: #f3e6dd;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Fieldset Styling */
+.page-general .apply-form fieldset {
+    border: 2px solid #4a787d;
+    padding: 20px 25px 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+
+.page-general .apply-form legend {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #4a787d;
+    padding: 0 10px;
+}
+
+/* Labels and Inputs */
+.page-general .apply-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #2f4f51;
+}
+
+.page-general .apply-form input[type="text"],
+.apply-form input[type="email"],
+.apply-form input[type="tel"],
+.apply-form textarea {
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 18px;
+    border: 1.5px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family:  Arial, Helvetica, Verdana, sans-serif;
+    transition: border-color 0.3s ease;
+}
+
+.page-general .apply-form input[type="text"]:focus,
+.apply-form input[type="email"]:focus,
+.apply-form input[type="tel"]:focus,
+.apply-form textarea:focus {
+    border-color: #4a787d;
+    outline: none;
+}
+
+.page-general .apply-form textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+/* Submit Button */
+.page-general .apply-form button {
+    width: 100%;
+    padding: 14px;
+    font-size: 18px;
+    background-color: #4a787d;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.page-general .apply-form button:hover {
+    background-color: #3e666b;
+}
+
+/* Main Content */
+.page-general main {
+    flex: 1;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+
+
+/* dropdown for Job Reference Number */
+.page-general #jobRef {
+    width: 100%;
+    padding: 12px 16px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #2f4f51;
+    background-color: #ffffff;
+    border: 2px solid #4a787d;
+    border-radius: 8px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: 
+        linear-gradient(45deg, transparent 50%, #4a787d 50%),
+        linear-gradient(135deg, #4a787d 50%, transparent 50%),
+        linear-gradient(to right, #ccc, #ccc);
+    background-position: 
+        calc(100% - 20px) calc(1em + 2px),
+        calc(100% - 15px) calc(1em + 2px),
+        calc(100% - 25px) 0.5em;
+    background-size: 5px 5px, 5px 5px, 1px 1.5em;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.page-general #jobRef:focus {
+    border-color: #3e666b;
+    box-shadow: 0 0 5px rgba(62, 102, 107, 0.7);
+    outline: none;
+}
+
+
+.page-general img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.page-general #group-pic {
+    display: block;
+    margin: 0 auto 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* === Sections === */
+.page-general .group-info {
+    background: white;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+
+
+.page-general h1, h2 {
+    color: #46767E;
+}
+.page-general h2 {
+    margin-top: 0;
+}
+.page-general code {
+    display: block;
+    background: #f0f0f0;
+    border-left: 4px solid #EBC4BB;
+    padding: 10px;
+    margin: 10px 0;
+    white-space: pre-wrap;
+    font-family:  Arial, Helvetica, Verdana, sans-serif;
+}
+.page-general body {
+    font-family: Arial, Helvetica, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+
+
+
+
+
+
+
+.page-login * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page-login body {
+    height: 100vh;
+    background: #46767E;
+    font-family: Arial, Helvetica, Verdana, sans-serif;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.page-login .container {
+    width: 100%;
+    max-width: 450px;
+    margin-top: 20px;
+	padding: 30px;
+    backdrop-filter: blur(15px);
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    animation: float 6s ease-in-out infinite;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page-login .card h2 {
+    color: #1d1a1a;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.page-login .form-label {
+    color: #1d1a1a;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+.page-login input {
+    background: #d1ecf0 !important;
+	color: #000 !important;
+
+}
+
+.page-login .form-control {
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+    width: 100%;
+    color: #ffffff;
+    font-size: 15px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+.page-login .form-control:focus {
+    outline: none;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 0 2px #ffffff50;
+}
+
+.page-login .btn-primary {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background: #1f4037;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 10px;
+    transition: background 0.3s ease;
+}
+
+.page-login .btn-primary:hover {
+    background: #e0e0e0;
+}
+
+.page-login .alert-danger {
+    background-color: rgba(255, 77, 77, 0.1);
+    color: #ff4d4d;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.page-login p.text-center {
+    margin-top: 20px;
+    color: #333;
+    font-size: 14px;
+}
+
+.page-login .btn-link {
+    color: #333;
+    font-weight: 500;
+    text-decoration: underline;
+    transition: opacity 0.3s;
+}
+
+.page-login .page-login .btn-link:hover {
+    opacity: 0.8;
+}
+
+.page-login nav{
+    width: 100%;
+}
+
+.page-login ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.page-login li {
+  float: left;
+}
+
+.page-login li a {
+  display: block;
+  color: white;
+  text-align: center;
+	padding: 37px 30px;
+  text-decoration: none;
+}
+
+
+
+
+.page-login header{
+	text-align: center;
+}
+.page-login .name{
+	padding: 12px;
+}
+.page-login #header{
+	text-align: right;
+	/* padding-right: 0.5%; */
+	list-style-type: none;
+	padding-top: 15px;
+	padding-bottom: 8px;
+	line-height: 1.8;
+	color: #EBC4BB;
+	background-color: #46767E;
+  }
+.page-login #logo{
+	width: 125px;
+	float: left;
+}
+@media only screen and (max-width: 705px) {
+	.page-login #logo{
+		height: 229px;
+	}
+}
+@media only screen and (max-width: 426px) {
+	.page-login #logo{
+		height: 331px;
+	}
+}
+
+/* === Footer === */
+.page-login footer {
+
+    text-align: center;
+    padding: 1rem;
+    background-color: #46767E;
+    color: #EBC4BB;
+    font-size: 0.9rem;
+    margin-top: 3rem;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:60px;  
+}
+
+.page-login footer a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.page-login footer a:hover {
+    color: var(--accent-color);
+}
+
+
+
+
+:root {
+    --primary: #4e73df;
+    --primary-dark: #2e59d9;
+    --danger: #e74a3b;
+    --success: #1cc88a;
+    --warning: #f6c23e;
+    --light-bg: #f1f4f9;
+    --white: #fff;
+    --text-dark: #343a40;
+    --muted: #6c757d;
+    --border: #e0e0e0;
+}
+
+.page-manage * {
+    box-sizing: border-box;
+}
+
+.page-manage body {
+    font-family: Arial, Helvetica, Verdana, sans-serif;
+    background-color: var(--light-bg);
+    color: var(--text-dark);
+    margin: 0;
+    padding: 0;
+}
+
+.page-manage .container {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.page-manage h2 {
+    font-size: 28px;
+    font-weight: 600;
+    color: var(--primary);
+    margin-bottom: 16px;
+}
+
+.page-manage .card {
+    background-color: var(--white);
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.page-manage form {
+    margin-bottom: 24px;
+}
+
+.page-manage input.form-control,
+select.form-select {
+    width: 100%;
+    padding: 12px;
+    margin-top: 6px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    font-size: 15px;
+    transition: border-color 0.3s ease;
+}
+
+.page-manage input:focus,
+select:focus {
+    border-color: var(--primary);
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(78, 115, 223, 0.15);
+}
+
+.page-manage button.btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.page-manage .btn-outline-primary {
+    border: 2px solid var(--primary);
+    background-color: transparent;
+    color: var(--primary);
+}
+
+.page-manage .btn-outline-primary:hover {
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+.page-manage .btn-outline-danger {
+    border: 2px solid var(--danger);
+    color: var(--danger);
+    background: transparent;
+}
+
+.page-manage .btn-outline-danger:hover {
+    background-color: var(--danger);
+    color: #fff;
+}
+
+.page-manage .btn-outline-warning {
+    border: 2px solid var(--warning);
+    color: #b78100;
+    background: transparent;
+}
+
+.page-manage .btn-outline-warning:hover {
+    background-color: var(--warning);
+    color: #000;
+}
+
+.page-manage .btn-danger {
+    background-color: var(--danger);
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    padding: 12px 12px;
+    float: right;
+}
+
+.page-manage .btn-danger:hover {
+    background-color: #c0392b;
+}
+
+.page-manage .alert {
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.page-manage .alert-info {
+    background-color: #e9f7fd;
+    border-left: 6px solid #17a2b8;
+    color: #31708f;
+}
+
+.page-manage .alert-success {
+    background-color: #eafaf1;
+    border-left: 6px solid var(--success);
+    color: #2e7d32;
+}
+
+.page-manage .alert-warning {
+    background-color: #fff3cd;
+    border-left: 6px solid #f0ad4e;
+    color: #856404;
+}
+
+.page-manage .table-responsive {
+    overflow-x: auto;
+}
+
+.page-manage table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.page-manage thead {
+    background-color: var(--primary);
+    color: #fff;
+}
+
+.page-manage table th,
+table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid var(--border);
+}
+
+@media (min-width: 768px) {
+    .page-manage .form-row {
+        display: flex;
+        gap: 16px;
+        margin-bottom: 16px;
+    }
+
+    .page-manage .form-row > div {
+        flex: 1;
+    }
+}
+
+
+
+.page-manage ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.page-manage li {
+  float: left;
+}
+
+.page-manage li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 37px 30px;
+  text-decoration: none;
+}
+
+
+
+
+.page-manage header{
+	text-align: center;
+}
+.page-manage .name{
+	padding: 12px;
+}
+.page-manage #header{
+	text-align: right;
+	padding-right: 0.5%;
+	list-style-type: none;
+	padding-top: 15px;
+	padding-bottom: 8px;
+	line-height: 1.8;
+	color: #EBC4BB;
+	background-color: #46767E;
+  }
+.page-manage #logo{
+	width: 125px;
+	float: left;
+}
+
+/* === Footer === */
+.page-manage footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #46767E;
+    color: #EBC4BB;
+    font-size: 0.9rem;
+    margin-top: 3rem;
+}
+
+.page-manage footer a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.page-manage footer a:hover {
+    color: var(--accent-color);
+}
+
+
+
+
+.navbar {
+  background-color: #45767b;
+  padding: 5px;
+}
+
+.navbar-top {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+#logo {
+  height: 60px;
+  width: auto;
+  border-radius: 50%;
+}
+
+.company-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-left: 5px;
+  color: #f0cfc5;
+}
+
+.navbar-links {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-links li a {
+  color: #f0cfc5;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+#applyBtn {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #46767E;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  border: none;
+}
+
+#applyBtn:hover {
+  background-color: #355a5f; 
+}
+
+.job-wrapper {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 20px 40px; 
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.job-listings {
+    flex: 1 1 75%;
+}
+
+.why-it-matters {
+    flex: 0 0 300px;
+    padding: 20px;
+    border: 1px solid #46767E;
+    background-color: #f9f9f9;
+    border-radius: 6px;
+    text-align: center;
+    margin-top: 46px;
+}
+
+.job-title {
+    background-color: #e8b4b8;
+    color: #2e5e5e;
+    font-weight: bold;
+    padding: 12px 40px;
+    margin: 0;
+    font-size: 1.25rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.job-details ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-left: 0;
+}
